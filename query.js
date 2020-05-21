@@ -32,7 +32,7 @@ app.post("/",function(req,res)
   const url = "https://us18.api.mailchimp.com/3.0/lists/877e547093"
   const option={
     method:"POST",
-    auth : "sumaiya:5c320a776d0a06282665eda67a9358c52-us18"
+    auth : "sumaiya:5c20a776d0a06282665eda67a9358c52-us18"
   }
 
   const request=https.request(url,option,function(response){
@@ -63,9 +63,3 @@ app.listen(process.env.PORT || 3000,function()
 {
   console.log("server is running on port 3000")
 })
-
-
-//api
-//5c20a776d0a06282665eda67a9358c52-us18
-// unique id
-// 877e547093
