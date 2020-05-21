@@ -1,3 +1,7 @@
+"scripts": {
+   "start": "node query.js"
+}
+
 {
   "name": "newsletter-project",
   "version": "1.0.0",
